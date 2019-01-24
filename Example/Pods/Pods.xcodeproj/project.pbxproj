@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8974533B7F7636180BFD346B1A122F /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
+		20571131CEEBA305E759E3DD4C93D774 /* DLDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF4B604D13EEA75892625435489F603 /* DLDatePicker.m */; };
+		2577B840FDE6BB6F8DEE15EA9E26B6DE /* DLStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B935A2EF915133A8D412A00E7BE1C7 /* DLStringPicker.m */; };
+		2ED9E1B1681466CC2832C36076B56D82 /* DLPickerPresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BECF8D029F2D6BE518A2D1E43FE8682 /* DLPickerPresentation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3268F57224F4BB6927BC9FCC1C5D0F3B /* DLStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC35ADBEDF4A9FBB58F833F24C1AF64 /* DLStringPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F21D84AE536D137F519DC6FFC37DEA7 /* UIViewController+DLPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B63941DCE0CA1A5A972C6E2B593B200D /* UIViewController+DLPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67F5E731F9BE1FC7FBBAC89DAF378E0C /* DLPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BE762262599BE6130B580154E5EA93 /* DLPicker-dummy.m */; };
+		752F3660ED76212271AC392726EC7735 /* DLPickerPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3239EFB05DF2511F45662010898CC774 /* DLPickerPresentation.m */; };
+		966C3901E33471571A7F9ADC43B3686A /* DLPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C050ABA3970A60B77FEC74997F8D7C /* DLPicker.m */; };
+		A5CA6A69D373F8A5677FA98B552BEA76 /* UIDevice+DLPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DB87C28381FAB120E516F6458A0808 /* UIDevice+DLPicker.m */; };
+		AAD296C626D70328600D5DB3B02AED25 /* UIDevice+DLPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = EE609801DE6C46680990AB1F55489AED /* UIDevice+DLPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B22876E25EAC3B999CC5051530F23CBB /* DLDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9CD6919171ECADF5E429DCF4E344C5 /* DLDatePicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BED40FEE73C2B5B26B4AA45D389E7036 /* UIViewController+DLPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DB27B09215C01A9B396A662D126CFB79 /* UIViewController+DLPicker.m */; };
+		C190D186BB285F274B7B3294B7FB11C8 /* DLPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D1956B6526A183A12EB897A07637C215 /* DLPicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E07D71F693A98F6A685B7D0AA58FD98B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE711E6B2E718EDE05166521D993B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456067D4D3BFA44D887BBEF4A30A0A25;
+			remoteInfo = DLPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14C050ABA3970A60B77FEC74997F8D7C /* DLPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLPicker.m; sourceTree = "<group>"; };
+		2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3239EFB05DF2511F45662010898CC774 /* DLPickerPresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLPickerPresentation.m; sourceTree = "<group>"; };
+		49523737596E6EF0FFD8272A3BDDFA2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		579D629BBB969F29C374B9F017F76F19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BECF8D029F2D6BE518A2D1E43FE8682 /* DLPickerPresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLPickerPresentation.h; sourceTree = "<group>"; };
+		81DB87C28381FAB120E516F6458A0808 /* UIDevice+DLPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DLPicker.m"; sourceTree = "<group>"; };
+		853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		85BE762262599BE6130B580154E5EA93 /* DLPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLPicker-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99B935A2EF915133A8D412A00E7BE1C7 /* DLStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLStringPicker.m; sourceTree = "<group>"; };
+		B63941DCE0CA1A5A972C6E2B593B200D /* UIViewController+DLPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DLPicker.h"; sourceTree = "<group>"; };
+		B6AE4FFE2850FAFFFFC93BA440EBE352 /* DLPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DLPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE9CD6919171ECADF5E429DCF4E344C5 /* DLDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLDatePicker.h; sourceTree = "<group>"; };
+		C5BE3519A4BD02A786817909D96946D8 /* libDLPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDLPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		CBC35ADBEDF4A9FBB58F833F24C1AF64 /* DLStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLStringPicker.h; sourceTree = "<group>"; };
+		D1956B6526A183A12EB897A07637C215 /* DLPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLPicker.h; sourceTree = "<group>"; };
+		DB27B09215C01A9B396A662D126CFB79 /* UIViewController+DLPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DLPicker.m"; sourceTree = "<group>"; };
+		DD5EEB08CBC962DBF4475FFA4F9AA9DD /* DLPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLPicker.xcconfig; sourceTree = "<group>"; };
+		DDF4B604D13EEA75892625435489F603 /* DLDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLDatePicker.m; sourceTree = "<group>"; };
+		E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E87AAB5EC4B09C96A361BD1BB76F05D7 /* DLPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLPicker-prefix.pch"; sourceTree = "<group>"; };
+		EE609801DE6C46680990AB1F55489AED /* UIDevice+DLPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DLPicker.h"; sourceTree = "<group>"; };
+		F67028590AF1C15A3D636E2D253ACA5A /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91989B1E8E662F7737FCFA5B04521BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07D71F693A98F6A685B7D0AA58FD98B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9BC1EECB742E53D793DF6C0A868EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FD7D82B041785F98BBEDF651D85AFBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5EEB08CBC962DBF4475FFA4F9AA9DD /* DLPicker.xcconfig */,
+				85BE762262599BE6130B580154E5EA93 /* DLPicker-dummy.m */,
+				E87AAB5EC4B09C96A361BD1BB76F05D7 /* DLPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DLPicker";
+			sourceTree = "<group>";
+		};
+		10B3F3099E14E205FBAD7AEF6C1E0CA8 /* DLPicker */ = {
+			isa = PBXGroup;
+			children = (
+				499C42271F96B3CB0F633FB72EB66F27 /* Categories */,
+				ECFC95352B4E3CBAE4C6ED07431021CF /* Pickers */,
+				FE8516AA1536F36F8BFFDB119AA74C4E /* Presentation */,
+				453576FD2D6BBF12468041280E07E37E /* Pod */,
+				0FD7D82B041785F98BBEDF651D85AFBF /* Support Files */,
+			);
+			name = DLPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		439617EAFCB50E7C1F770414D2834329 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		453576FD2D6BBF12468041280E07E37E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B6AE4FFE2850FAFFFFC93BA440EBE352 /* DLPicker.podspec */,
+				49523737596E6EF0FFD8272A3BDDFA2C /* LICENSE */,
+				579D629BBB969F29C374B9F017F76F19 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		499C42271F96B3CB0F633FB72EB66F27 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EE609801DE6C46680990AB1F55489AED /* UIDevice+DLPicker.h */,
+				81DB87C28381FAB120E516F6458A0808 /* UIDevice+DLPicker.m */,
+				B63941DCE0CA1A5A972C6E2B593B200D /* UIViewController+DLPicker.h */,
+				DB27B09215C01A9B396A662D126CFB79 /* UIViewController+DLPicker.m */,
+			);
+			name = Categories;
+			path = DLPicker/Classes/Categories;
+			sourceTree = "<group>";
+		};
+		6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CFBBC142C9365C96B60AC636521AF01 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6CFBBC142C9365C96B60AC636521AF01 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */,
+				7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */,
+				853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */,
+				5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */,
+				C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */,
+				2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */,
+				74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BB1F38694F99002AEDABB7D2A7A5119C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				97FDC48474854602D3829F7D6DBA40A0 /* Products */,
+				6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97FDC48474854602D3829F7D6DBA40A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE3519A4BD02A786817909D96946D8 /* libDLPicker.a */,
+				F67028590AF1C15A3D636E2D253ACA5A /* libPods-Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1F38694F99002AEDABB7D2A7A5119C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10B3F3099E14E205FBAD7AEF6C1E0CA8 /* DLPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439617EAFCB50E7C1F770414D2834329 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECFC95352B4E3CBAE4C6ED07431021CF /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				D1956B6526A183A12EB897A07637C215 /* DLPicker.h */,
+				14C050ABA3970A60B77FEC74997F8D7C /* DLPicker.m */,
+				BE9CD6919171ECADF5E429DCF4E344C5 /* DLDatePicker.h */,
+				DDF4B604D13EEA75892625435489F603 /* DLDatePicker.m */,
+				CBC35ADBEDF4A9FBB58F833F24C1AF64 /* DLStringPicker.h */,
+				99B935A2EF915133A8D412A00E7BE1C7 /* DLStringPicker.m */,
+			);
+			name = Pickers;
+			path = DLPicker/Classes/Pickers;
+			sourceTree = "<group>";
+		};
+		FE8516AA1536F36F8BFFDB119AA74C4E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				7BECF8D029F2D6BE518A2D1E43FE8682 /* DLPickerPresentation.h */,
+				3239EFB05DF2511F45662010898CC774 /* DLPickerPresentation.m */,
+			);
+			name = Presentation;
+			path = DLPicker/Classes/Presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1744C8B175CAE4F308DC0513DFC7A658 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0AA5BB9ED077B1F3FCCC5C37EF516A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22876E25EAC3B999CC5051530F23CBB /* DLDatePicker.h in Headers */,
+				C190D186BB285F274B7B3294B7FB11C8 /* DLPicker.h in Headers */,
+				2ED9E1B1681466CC2832C36076B56D82 /* DLPickerPresentation.h in Headers */,
+				3268F57224F4BB6927BC9FCC1C5D0F3B /* DLStringPicker.h in Headers */,
+				AAD296C626D70328600D5DB3B02AED25 /* UIDevice+DLPicker.h in Headers */,
+				4F21D84AE536D137F519DC6FFC37DEA7 /* UIViewController+DLPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		456067D4D3BFA44D887BBEF4A30A0A25 /* DLPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8076B0EA1138E0E9D89BA9F950752AC2 /* Build configuration list for PBXNativeTarget "DLPicker" */;
+			buildPhases = (
+				8A0AA5BB9ED077B1F3FCCC5C37EF516A /* Headers */,
+				8ABAFAAB077E3B46C48329F7124A6AA8 /* Sources */,
+				91989B1E8E662F7737FCFA5B04521BB2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLPicker;
+			productName = DLPicker;
+			productReference = C5BE3519A4BD02A786817909D96946D8 /* libDLPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A2D78F79E02AADFE2C27918106ADCBAC /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895B225AF6755BF68B8E5E1A428E6B4D /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				1744C8B175CAE4F308DC0513DFC7A658 /* Headers */,
+				AE1BA879E2004CA5E14822F99814EF91 /* Sources */,
+				CC9BC1EECB742E53D793DF6C0A868EDE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7EEFCF98F2911EE308511D9C2D2B21 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = F67028590AF1C15A3D636E2D253ACA5A /* libPods-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 97FDC48474854602D3829F7D6DBA40A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456067D4D3BFA44D887BBEF4A30A0A25 /* DLPicker */,
+				A2D78F79E02AADFE2C27918106ADCBAC /* Pods-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ABAFAAB077E3B46C48329F7124A6AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20571131CEEBA305E759E3DD4C93D774 /* DLDatePicker.m in Sources */,
+				67F5E731F9BE1FC7FBBAC89DAF378E0C /* DLPicker-dummy.m in Sources */,
+				966C3901E33471571A7F9ADC43B3686A /* DLPicker.m in Sources */,
+				752F3660ED76212271AC392726EC7735 /* DLPickerPresentation.m in Sources */,
+				2577B840FDE6BB6F8DEE15EA9E26B6DE /* DLStringPicker.m in Sources */,
+				A5CA6A69D373F8A5677FA98B552BEA76 /* UIDevice+DLPicker.m in Sources */,
+				BED40FEE73C2B5B26B4AA45D389E7036 /* UIViewController+DLPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1BA879E2004CA5E14822F99814EF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8974533B7F7636180BFD346B1A122F /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A7EEFCF98F2911EE308511D9C2D2B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLPicker;
+			target = 456067D4D3BFA44D887BBEF4A30A0A25 /* DLPicker */;
+			targetProxy = EFE711E6B2E718EDE05166521D993B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D9439A0BBF1425D2A5ED47C42488FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26D2AF5FD1CE3D0F9E1CD05F08A7F1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5EEB08CBC962DBF4475FFA4F9AA9DD /* DLPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DLPicker/DLPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DLPicker;
+				PRODUCT_NAME = DLPicker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D403E81DE012B4EAE4D177EBB5B83D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F0D796CFB074607F22592C32C845233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5EEB08CBC962DBF4475FFA4F9AA9DD /* DLPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DLPicker/DLPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DLPicker;
+				PRODUCT_NAME = DLPicker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8076B0EA1138E0E9D89BA9F950752AC2 /* Build configuration list for PBXNativeTarget "DLPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D2AF5FD1CE3D0F9E1CD05F08A7F1EC /* Debug */,
+				5F0D796CFB074607F22592C32C845233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895B225AF6755BF68B8E5E1A428E6B4D /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9439A0BBF1425D2A5ED47C42488FDC /* Debug */,
+				4D403E81DE012B4EAE4D177EBB5B83D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DLPicker (0.0.1)
+
+DEPENDENCIES:
+  - DLPicker (from `../`)
+
+EXTERNAL SOURCES:
+  DLPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DLPicker: 88f9aa1c18d2b54ff1818a9f85ccd00fd9161755
+
+PODFILE CHECKSUM: 6bed99309120d41a9dcddf94ce7f58e1621d9063
+
+COCOAPODS: 1.5.3
