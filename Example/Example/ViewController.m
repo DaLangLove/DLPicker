@@ -52,25 +52,16 @@
 
 - (IBAction)showAction:(id)sender {
     
-     DLStringPicker *picker = [[DLStringPicker alloc] initWithTitle:@"请选择"
-                                                               rows:@[@"1", @"2", @"3", @"4", @"5"]
-                                                   initialSelection:3
-                                                          doneBlock:^(DLStringPicker * _Nullable picker, NSUInteger selecedIndex, NSString * _Nullable selectedValue) {
-                                                              NSLog(@"%@ %@ %@", picker, @(selecedIndex), selectedValue);
-                                                          } cancelBlock:^(DLStringPicker * _Nullable picker) {
-                                                              NSLog(@"%@", picker);
-                                                          } from:sender];
-    
-    picker.topBarBackgroundColor = [UIColor brownColor];
-    picker.topBarTitleColor = [UIColor whiteColor];
-    picker.topBarTitleFont = [UIFont systemFontOfSize:20];
-    picker.topBarActionButtonTitleColor = [UIColor yellowColor];
-    picker.topBarActionButtonTitleFont = [UIFont systemFontOfSize:18];
-    
-    picker.rowHeight = 50.f;
-    picker.rowTitleFont = [UIFont systemFontOfSize:18];
-    picker.rowTitleColor = [UIColor grayColor];
-    
+    DLStringPicker *picker = [[DLStringPicker alloc] initWithTitle:@"请选择"
+                                                              rows:@[@"1", @"2", @"3", @"4", @"5"]
+                                                  initialSelection:2
+                                                   pickerConfigure:^(UIPickerView * _Nonnull picker) {
+                                                       
+                                                   } doneBlock:^(DLStringPicker * _Nonnull picker, NSUInteger selectedIndex, NSString * _Nonnull selectedValue) {
+                                                       NSLog(@"%@ %@ %@", picker, @(selectedIndex), selectedValue);
+                                                   } cancelBlock:^(DLStringPicker * _Nonnull picker) {
+                                                       NSLog(@"%@", picker);
+                                                   } from:sender];
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"无固定期限" style:UIBarButtonItemStylePlain target:nil action:nil];
     [picker setRightButtons:@[item]];
     [picker show];

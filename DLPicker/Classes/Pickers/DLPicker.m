@@ -26,11 +26,6 @@
 
 @property (nonatomic, strong) UIBarButtonItem *doneButton;
 
-/**
- Picker的尺寸
- */
-@property (nonatomic, assign) CGSize pickerSize;
-
 @end
 
 @implementation DLPicker
@@ -81,9 +76,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    [self setNavigationBar];
-    
     [self setButtons];
 }
 
@@ -255,12 +247,6 @@
     _leftBarButtons = [[NSMutableArray alloc] init];
     _rightBarButtons = [[NSMutableArray alloc] init];
     
-    _topBarTitleFont = [UIFont systemFontOfSize:15];
-    _topBarTitleColor = [UIColor blackColor];
-    _topBarActionButtonTitleFont = [UIFont systemFontOfSize:15];
-    _topBarActionButtonTitleColor = [UIColor blueColor];
-    _topBarBackgroundColor = [UIColor whiteColor];
-    
 }
 
 - (void)setButtons
@@ -283,29 +269,6 @@
     [rights addObjectsFromArray:_rightBarButtons];
     self.navigationItem.rightBarButtonItems = rights;
     
-    NSDictionary *attibutes = @{
-                                NSFontAttributeName: _topBarActionButtonTitleFont,
-                                NSForegroundColorAttributeName: _topBarActionButtonTitleColor
-                                };
-    
-    for (UIBarButtonItem *item in self.navigationItem.leftBarButtonItems) {
-        [item setTitleTextAttributes:attibutes forState:UIControlStateNormal];
-    }
-    
-    for (UIBarButtonItem *item in self.navigationItem.rightBarButtonItems) {
-        [item setTitleTextAttributes:attibutes forState:UIControlStateNormal];
-    }
-}
-
-- (void)setNavigationBar
-{
-    UINavigationBar *bar = self.navigationController.navigationBar;
-    [bar setTitleTextAttributes:@{
-                                  NSFontAttributeName: _topBarTitleFont,
-                                  NSForegroundColorAttributeName: _topBarTitleColor
-                                  }];
-    [bar setBarTintColor:_topBarBackgroundColor];
-    [bar setTranslucent:NO];
 }
 
 - (UIViewController *)topViewController
@@ -352,37 +315,6 @@
     _pickerSize = pickerSize;
     _transitioningDelegate = [[DLPickerTransitioningDelegate alloc] initWithDisappearWhenTapBacground:_disappearWhenTapBackground pickerSize:_pickerSize];
     _popoverPresentationControllerDelegate = [[DLPickerPopoverPresentationControllerDelegate alloc] initWithDisappearWhenTapBacground:_disappearWhenTapBackground];
-}
-
-
-- (void)setTopBarTitleFont:(UIFont *)topBarTitleFont
-{
-    _topBarTitleFont = topBarTitleFont;
-    [self setNavigationBar];
-}
-
-- (void)setTopBarTitleColor:(UIColor *)topBarTitleColor
-{
-    _topBarTitleColor = topBarTitleColor;
-    [self setNavigationBar];
-}
-
-- (void)setTopBarActionButtonTitleFont:(UIFont *)topBarActionButtonTitleFont
-{
-    _topBarActionButtonTitleFont = topBarActionButtonTitleFont;
-    [self setButtons];
-}
-
-- (void)setTopBarActionButtonTitleColor:(UIColor *)topBarActionButtonTitleColor
-{
-    _topBarActionButtonTitleColor = topBarActionButtonTitleColor;
-    [self setButtons];
-}
-
-- (void)setTopBarBackgroundColor:(UIColor *)topBarBackgroundColor
-{
-    _topBarBackgroundColor = topBarBackgroundColor;
-    [self setNavigationBar];
 }
 
 @end

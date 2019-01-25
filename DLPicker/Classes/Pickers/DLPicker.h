@@ -12,34 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DLPicker : UIViewController
 
 /**
- 顶部导航栏标题颜色，默认 [UIColor blackColor]
- */
-@property (nonatomic, strong) UIColor *topBarTitleColor;
-
-/**
- 顶部导航栏标题字体, 默认 [UIFont systemFontOfSize:15]
- */
-@property (nonatomic, strong) UIFont *topBarTitleFont;
-
-/**
- 顶部导航栏按钮标题颜色，默认 [UIColor blueColor]
- */
-@property (nonatomic, strong) UIColor *topBarActionButtonTitleColor;
-
-/**
- 顶部导航栏按钮标题字体，默认 [UIFont systemFontOfSize:15]
- */
-@property (nonatomic, strong) UIFont *topBarActionButtonTitleFont;
-
-/**
- 顶部导航栏背景色，默认 [UIColor whiteColor]
- */
-@property (nonatomic, strong) UIColor *topBarBackgroundColor;
-
-/**
  点击背景是否消失 默认YES
  */
 @property (nonatomic, assign) BOOL disappearWhenTapBackground;
+
+/**
+ Picker的尺寸
+ */
+@property (nonatomic, assign) CGSize pickerSize;
 
 /**
  Picker触发控件，当在iPad上不能为空
