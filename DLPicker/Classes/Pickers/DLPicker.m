@@ -306,6 +306,11 @@
                                   }];
     [bar setBarTintColor:_topBarBackgroundColor];
     [bar setTranslucent:NO];
+    
+    if (@available(iOS 11.0, *)) {
+        bar.prefersLargeTitles = NO;
+    }
+    
 }
 
 - (UIViewController *)topViewController
