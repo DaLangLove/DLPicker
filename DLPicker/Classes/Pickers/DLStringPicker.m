@@ -18,7 +18,6 @@
 - (instancetype)initWithTitle:(NSString *)title
                          rows:(NSArray <NSString *> *)rows
              initialSelection:(NSUInteger)selection
-              pickerConfigure:(DLPickerViewConfigureBlock)configure
                     doneBlock:(DLPickerDoneBlock)done
                   cancelBlock:(DLPickerCancelBlock)cancel
                          from:(id)from
@@ -31,7 +30,7 @@
         _selectedIndex = selection;
         _doneBlock = done;
         _cancelBlock = cancel;
-        _configureBlock = configure;
+        [self setup];
     }
     return self;
 }
@@ -46,10 +45,6 @@
     _pickerView.dataSource = self;
     [self.view addSubview:_pickerView];
     [self layoutPickerView:_pickerView];
-    
-    if (_configureBlock != nil) {
-        _configureBlock(_pickerView);
-    }
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -72,9 +67,19 @@
 }
 
 #pragma mark - UIPickerViewDelegate
-- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+- (NSAttributedString *)pickerView:(UIPickerView *)pickerView attributedTitleForRow:(NSInteger)row forComponent:(NSInteger)component
 {
-    return _rows[row];
+    NSString *string = _rows[row];
+    NSDictionary *attributes = @{
+                                NSForegroundColorAttributeName: _rowTitleColor,
+                                NSFontAttributeName: _rowTitleFont
+                                };
+    return [[NSAttributedString alloc] initWithString:string attributes:attributes];
+}
+
+- (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component
+{
+    return _rowHeight;
 }
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
@@ -83,6 +88,44 @@
 }
 
 #pragma mark - Private
+
+- (void)setup
+{
+    _rowHeight = 40.f;
+    _rowTitleFont = [UIFont systemFontOfSize:15];
+    _rowTitleColor = [UIColor blackColor];
+}
+
+- (void)setSelectedIndex:(NSUInteger)selectedIndex
+{
+    _selectedIndex = selectedIndex;
+    
+    [_pickerView selectRow:_selectedIndex inComponent:0 animated:YES];
+}
+
+- (void)setRows:(NSArray<NSString *> *)rows
+{
+    _rows = rows;
+    [_pickerView reloadAllComponents];
+}
+
+- (void)setRowHeight:(CGFloat)rowHeight
+{
+    _rowHeight = rowHeight;
+    [_pickerView reloadAllComponents];
+}
+
+- (void)setRowTitleFont:(UIFont *)rowTitleFont
+{
+    _rowTitleFont = rowTitleFont;
+    [_pickerView reloadAllComponents];
+}
+
+- (void)setRowTitleColor:(UIColor *)rowTitleColor
+{
+    _rowTitleColor = rowTitleColor;
+    [_pickerView reloadAllComponents];
+}
 
 #pragma mark - Override
 - (void)cancelButtonAction
