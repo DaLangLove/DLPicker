@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s| 
   s.name         = "DLPicker"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "自定义各种Picker。"
   s.homepage     = "https://github.com/DaLangLove/DLPicker"
   s.license      = { :type => "MIT", :file => "LICENSE" }
